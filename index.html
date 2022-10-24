@@ -64,13 +64,45 @@ border-style: dotted;
 	border-style: dotted;
 }
 
+
+.stripe{
+	width:4.09em;
+    height:0.58em;
+    background-color: black;
+}
+
+.stripe:hover{
+	width:170%;
+    height:0.58em;
+}
+
+.container{
+	border-style:double;
+}
+
 .menu-anim-item{
 	display: flex;
     flex-direction: column;
     border-style: solid;
 }
+
+
+
+
+
 .menu-item{
-	border-style: double;
+	background-color: white;
+	color: black;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+    width:100%
+
+}
+
+.menu-item:hover, .menu-item:active {
+	background-color: white;
+	color: black;
 }
 
 .menu-item-initial{
@@ -120,21 +152,31 @@ border-style: dotted;
        		<div class="menu-item">
             	<div class="menu-item-initial">
             		<h1>M</h1>
-                    <div class="menu-anim-item">
-            		<div style="width:49pt;height:7pt;border:1pt solid black;"></div>
-            		<sp>icrocosm</sp>
-            </div>
+                		<div class="container">
+                    		<div class="stripe"> </div>
+                    			<div class="menu-anim-item">
+                        			<sp>icrocosm</sp>
+                        </div>
+					</div>
                 </div>
             </div>
             
-            
-            <body>EXTAQ</body>
-            <h2>EXTAQ</h2>
-            <h3>EXTAQ</h3>
+       		<div class="menu-item">
+            	<div class="menu-item-initial">
+            		<h1>L</h1>
+                		<div class="container">
+                    		<div class="stripe"></div>
+                    			<div class="menu-anim-item">
+                        			<sp>inks</sp>
+                        </div>
+					</div>
+                </div>
+            </div>
+
     	</div>
     </div>
     <div class="entry">
-    ENTRY
+    ENTRY    
     </div>
     <div class="blank">
     BLANK AREA
