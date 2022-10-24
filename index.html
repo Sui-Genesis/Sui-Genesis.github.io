@@ -6,10 +6,32 @@
 
 <style>
 
-h1.a {font-family: "Overpass", sans-serif;}
-h1.b {font-family: "Raleway", sans-serif;}
-h1.c {font-family: "Proza Libre", serif;}
-h1.d {font-family: "Quicksand", sans-serif;}
+h1	{
+	font-family: "Overpass", regular;
+    font-size: 3.68em;
+
+}
+
+sp	{
+	font-family: "Overpass", regular;
+    font-size: 2.76em;
+
+}
+
+h2	{
+	font-family: "Raleway", regular;
+	font-size: 2.76em;
+}
+
+h3	{
+	font-family: "Proza Libre", serif;
+	font-size: 1.84em;
+}
+
+body{
+	font-family: "Quicksand", sans-serif;
+    font-size: 0.92em;
+}
 
 .global-container {
 	display: grid;
@@ -24,42 +46,57 @@ h1.d {font-family: "Quicksand", sans-serif;}
 }
 
 .left-corner{
-border-style: dotted
+border-style: dotted;
 }
 .header{
-border-style: dotted
+border-style: dotted;
 }
 .right-corner{
-border-style: dotted
+border-style: dotted;
 }
 
 .menu-area {
-	border-style: dotted
+	border-style: dotted;
     display: flex;   
 }
 
 .menu{
-border-style: dotted
+	border-style: dotted;
+}
+
+.menu-anim-item{
+	display: flex;
+    flex-direction: column;
+    border-style: solid;
+}
+.menu-item{
+	border-style: double;
+}
+
+.menu-item-initial{
+	display: flex;
+    border-style: solid;
+    align-items: center;
 }
 
 .entry{
-border-style: dotted
+	border-style: dotted;
 }
 
 .blank{
-border-style: dotted
+	border-style: dotted;
 }
 
 .left-bottom{
-border-style: dotted
+	border-style: dotted;
 }
 
 .footer{
-border-style: dotted
+	border-style: dotted;
 }
 
 .right-bottom{
-border-style: dotted
+	border-style: dotted;
 }
 
 </style>
@@ -79,10 +116,21 @@ border-style: dotted
     <div class="menu-area">
     
     	<div class="menu">
-    		<div>NAVI</div>
-            <div>HIST</div>
-            <div>LINK</div>
-            <div>EXTA</div>
+        
+       		<div class="menu-item">
+            	<div class="menu-item-initial">
+            		<h1>M</h1>
+                    <div class="menu-anim-item">
+            		<div style="width:49pt;height:7pt;border:1pt solid black;"></div>
+            		<sp>icrocosm</sp>
+            </div>
+                </div>
+            </div>
+            
+            
+            <body>EXTAQ</body>
+            <h2>EXTAQ</h2>
+            <h3>EXTAQ</h3>
     	</div>
     </div>
     <div class="entry">
