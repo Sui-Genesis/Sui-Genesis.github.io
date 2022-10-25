@@ -54,7 +54,9 @@ body{
 }
 
 .box-ph {
-	border-style: dotted;
+	border-style: double;
+    width:100%;
+    height:100%;
 }
 
 a:link,a:visited{
@@ -88,7 +90,7 @@ border-style: dotted;
 }
 
 .btn{
-	pointer:
+	pointer:pointer;
 }
 
 .menu-item{
@@ -153,6 +155,32 @@ border-style: dotted;
 	border-style: dotted;
 }
 
+.header-container{
+    display:flex;
+    align-items:center;
+}
+
+.header-initial{
+
+}
+.header-leftover{
+    align-items:baseline;
+
+}
+.header-box{
+    display:flex;
+  	justify-content: center;
+  	align-items: center;
+	flex-direction:row;
+	flex-wrap: wrap;
+}
+
+.h-stripe1{
+	width:100%;
+    height:0.58em;
+    background-color: black;
+}
+
 </style>
 </head>
 <body>
@@ -162,7 +190,34 @@ border-style: dotted;
     LEFT BLANK
     </div>
     <div class="header">
-    HEADER IMAGE
+    
+    	<div class="header-box">
+    		<div class="header-container">
+            	<div class="header-initial">
+            		<h1>S</h1>
+                </div>
+
+                <div class="header-leftover">
+					
+                	<sp>UI</sp>
+                    <div class="h-stripe1"></div>
+                </div>
+            </div>
+            
+           <div class="header-container">
+            	<div class="header-initial">
+            		<h1>G</h1>
+                </div>
+
+                <div class="header-leftover">
+					<div class="h-stripe1"></div>
+                	<sp>ENESIS</sp>
+                    
+                </div>
+            </div>
+            
+		</div>
+        
     </div>
     <div class="right-corner">
     RIGHT BLANK
@@ -306,3 +361,4 @@ border-style: dotted;
 
 </body>
 </html>
+
